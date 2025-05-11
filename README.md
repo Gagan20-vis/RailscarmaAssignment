@@ -6,11 +6,11 @@ This repository contains the source code for a full-stack web application built 
 
 ## 🔗 Live Demo
 
-[Live Site URL](https://your-live-site-url.com)
+[Live Site URL](https://railscarma-assignment.vercel.app/)
 
 ## 📂 Repository
 
-[GitHub Repository](https://github.com/your-username/your-repo-name)
+[GitHub Repository](https://github.com/Gagan20-vis/RailscarmaAssignment.git)
 
 ---
 
