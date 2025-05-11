@@ -57,7 +57,7 @@ const Navbar = () => {
               {data.navigations.map(link => (
                 <NavigationMenuItem key={link.id}>
                   <NavigationMenuLink asChild>
-                    <Link href={link.href}>
+                    <Link href={'/'}>
                       <span className="text-base font-bold text-primary hover:text-button-secondary transition">
                         {link.text}
                       </span>

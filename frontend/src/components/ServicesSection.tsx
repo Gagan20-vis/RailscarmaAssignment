@@ -65,7 +65,7 @@ const ServicesSection = () => {
                   key={`${service.id}${idx}`}
                   className="flex items-center gap-4 bg-white rounded-lg shadow px-4 py-3 even:ml-4 max-w-md"
                 >
-                  <Check className="h-5 w-5 text-[#FF0055]" />
+                  <Check className="h-6 w-6 bg-gray-50 rounded-full hover:bg-button-secondary hover:text-white p-1 text-button-secondary transition" />
                   <span className="text-base font-semibold text-primary">{service.text}</span>
                 </div>
               ))}
