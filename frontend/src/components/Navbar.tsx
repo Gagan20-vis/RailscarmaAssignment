@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
           <Image
-            src={`${process.env.NEXT_PUBLIC_API_URL}${data.Logo.Logo.url}`}
+            src={`${process.env.NEXT_PUBLIC_API_URL}${data.Logo.Logo.hash}.${data.Logo.Logo.ext}`}
             alt={data.Logo.logotext}
             width={120}
             height={40}

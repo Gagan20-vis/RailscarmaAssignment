@@ -34,7 +34,7 @@ const FeatureSection = () => {
             <Card key={`${item.id}-${index}`} className="border-0 shadow-none">
               <CardContent className="flex flex-col items-start gap-4">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_API_URL}${item.logo.url}`}
+                  src={`${process.env.NEXT_PUBLIC_API_URL}${item.logo.hash}.${item.logo.ext}`}
                   alt={item.heading}
                   width={item.logo.width}
                   height={item.logo.height}

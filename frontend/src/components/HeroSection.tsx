@@ -43,7 +43,7 @@ export default function HeroSection() {
         </div>
         <div className="w-full lg:w-1/2 relative mb-10 lg:mb-0">
           <Image
-            src={`${process.env.NEXT_PUBLIC_API_URL}${data?.heroImage[0].formats.large.url as string}`}
+            src={`${process.env.NEXT_PUBLIC_API_URL}${data?.heroImage[0].formats.large.hash}.${data?.heroImage[0].formats.large.ext}`}
             alt="Hero"
             width={data?.heroImage[0].formats.large.width}
             height={data?.heroImage[0].formats.large.height}
