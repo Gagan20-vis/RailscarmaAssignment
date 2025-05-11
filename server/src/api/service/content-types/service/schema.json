@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Heading1": {
+      "type": "string"
+    },
+    "SideLogo1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "providedServices1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services"
+    },
+    "Header2": {
+      "type": "string"
+    },
+    "SideLogo2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "providedservices2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services"
+    }
+  }
+}

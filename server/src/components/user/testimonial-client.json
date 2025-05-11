@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_user_testimonial_clients",
+  "info": {
+    "displayName": "testimonialClient"
+  },
+  "options": {},
+  "attributes": {
+    "ProfilePhoto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    }
+  }
+}
