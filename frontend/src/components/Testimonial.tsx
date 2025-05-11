@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
               <TabsContent key={profile.id} value={profile.id.toString()}>
                 <div className="flex justify-center gap-2 p-4">
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_API_URL}${profile.logo.hash}.${profile.logo.ext}`}
+                    src={`${process.env.NEXT_PUBLIC_MEDIA_URL}${profile.logo.hash}${profile.logo.ext}`}
                     alt={profile.logo.alternativeText || profile.heading}
                     width={60}
                     height={60}
@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
                   `}
                 >
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_API_URL}${profile.productLogo.hash}.${profile.productLogo.ext}`}
+                    src={`${process.env.NEXT_PUBLIC_MEDIA_URL}${profile.productLogo.hash}${profile.productLogo.ext}`}
                     alt={profile.logo.alternativeText || profile.heading}
                     width={profile.productLogo.width}
                     height={profile.productLogo.height}

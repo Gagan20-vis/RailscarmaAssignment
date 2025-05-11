@@ -25,7 +25,7 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="w-full">
             <Image
-              src={`${process.env.NEXT_PUBLIC_API_URL}${data.SideLogo1.hash}.${data.SideLogo1.ext}`}
+              src={`${process.env.NEXT_PUBLIC_MEDIA_URL}${data.SideLogo1.hash}${data.SideLogo1.ext}`}
               alt={data.Heading1}
               width={data.SideLogo1.width}
               height={data.SideLogo1.height}
@@ -73,7 +73,7 @@ const ServicesSection = () => {
           </div>
           <div className="order-1 lg:order-2 w-full">
             <Image
-              src={`${process.env.NEXT_PUBLIC_API_URL}${data.SideLogo2.hash}.${data.SideLogo2.ext}`}
+              src={`${process.env.NEXT_PUBLIC_MEDIA_URL}${data.SideLogo2.hash}${data.SideLogo2.ext}`}
               alt={data.Header2}
               width={data.SideLogo2.width}
               height={data.SideLogo2.height}

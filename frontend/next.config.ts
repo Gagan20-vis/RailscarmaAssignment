@@ -2,7 +2,7 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['localhost'],
+    domains: ['localhost', 'best-basket-9d1bb39b90.media.strapiapp.com'],
     remotePatterns: [
       {
         protocol: 'http',
